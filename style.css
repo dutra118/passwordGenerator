@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+h2{
+    margin-top: 10px;
+    font-family: 'arial ', sans-serif;
+}
+
+#principal{
+    background-color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    text-align: center;
+    width: 25%;
+    height: 405px;
+    border: 1px dashed blue;
+}
+
+#resultado{
+    resize: vertical;
+    overflow: auto;
+}
+label{
+    margin-right: 150px;
+}
+
+.uso{
+    margin-right: 195px;
+}
+
+.teste{
+    left: 50px;
+    cursor: pointer;
+}
+
+#gerar{
+    background-color: turquoise;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-top: -20px;
+    padding: 10px 15px;
+}
+
+#copiar{
+    background-color: #55DB41;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: -20px;
+    padding: 10px 15px;
+}
+
+#gerar:hover{
+    background-color: aqua;
+    transition-duration: 0.6s;
+}
+
+#copiar:hover{
+    background-color: #1FF011;
+    transition-duration: 0.6s;
+}
+
+#mensagem{
+    margin-left: 250px;
+    color: #A187FF;
+    font-family: 'Alkatra', cursive;
+}
+
+@media(max-width: 1250px){
+    #principal{
+        width: 50%;
+    }
+}
+
+@media(max-width: 620px){
+    #principal{
+        width: 70%;
+    }
+}
+
+@media(max-width: 412px){
+    #principal{
+        width: 90%;
+    }
+}
+
+@media(max-width: 360px){
+    h2{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 393px){
+    h2{
+        font-size: 20px;
+    }
+}
+@media(max-width: 280px){
+    #principal{
+        width: 150%;
+        height: 540px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    #gerar, #copiar{
+        padding: 5px 8px;
+    }
+}
+
+@media(max-width: 414px){
+    #principal{
+        width: 150%;
+        
+    }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+</head>
+<body>  
+    <div id="principal">
+        <h2>Gerador de senha aleatória</h2>
+        <br>
+        <textarea name="resultado" id="resultado" cols="20" rows="5" ></textarea>
+        <div id="area">
+            <br>
+            <div class="dada">
+                <label for="tamanho">Tamanho</label>
+                <input type="number" id="tamanho" min="5" max="20" class="teste">
+            </div>
+                <br>
+            <div class="dada">
+                <label for="letraMa">Letra maiuscula</label>
+                <input type="checkbox" id="LetraMaiuscula" class="teste">
+            </div>
+            <br>
+            <div class="dada">
+                <label for="letraMin">Letra minuscula</label>
+                <input type="checkbox" id="letraMinuscula" class="teste">
+            </div>
+            <br>
+            <div class="dada">
+                <label for="numeros" class="uso">Números</label>
+                <input type="checkbox" id="numeros" class="teste">
+            </div>
+            <br>
+            <div class="dada">
+                <label for="simbolos" class="uso">Símbolos</label>
+                <input type="checkbox" id="simbolos" class="teste">
+            </div>
+        <div>
+    <div>
+            <br><br>
+            <button id="gerar">
+                <ion-icon name="cog-outline"></ion-icon>
+                Gerar senha
+            </button>
+            <button id="copiar">
+                <ion-icon name="copy-outline"></ion-icon>
+                Copiar senha
+            </button>
+            <div>
+                <p id="mensagem"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
