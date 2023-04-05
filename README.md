@@ -1,1 +1,1 @@
-Projeto para gerar um senha aleatoria
+Projeto para gerar um senha aleatoria com a opção de escolher tipos de caracteres e tamanho
