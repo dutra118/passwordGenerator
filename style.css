@@ -10,7 +10,8 @@ body{
 
 h2{
     margin-top: 10px;
-    font-family: 'arial ', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #5468F4;
 }
 
 #principal{
@@ -22,24 +23,30 @@ h2{
     text-align: center;
     width: 25%;
     height: 405px;
-    border: 1px dashed blue;
+    border: 1px dashed #E3C905;
 }
 
 #resultado{
     resize: vertical;
     overflow: auto;
 }
+
 label{
     margin-right: 150px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .uso{
-    margin-right: 195px;
+    margin-right: 204px;
 }
 
 .teste{
     left: 50px;
     cursor: pointer;
+}
+
+.coisa{
+    margin-right: 155px;
 }
 
 #gerar{
